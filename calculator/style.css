@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
+.share-tech-regular {
+  font-family: "Share Tech", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  background-color: black;
+  /* Permalink - use to edit and share this gradient. ลิงก์ถาวร - ใช้สำหรับแก้ไขและแชร์การไล่สีนี้: https://colorzilla.com/gradient-editor/#fcfff4+0,dfe5d7+40,b3bead+100;Wax+3D+%233
+  background: radial-gradient(
+    ellipse at center,
+    #fcfff4 0%,
+    #dfe5d7 40%,
+    #b3bead 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.cal {
+  background:  #DFEBEB;
+  width: 300px;
+  padding: 15px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 6px 0 #c2ebef, 0 8px 10px #e5f8f8;
+}
+.result{
+  background-color: #E8EBCF;
+  color: darkblue;
+  width: 90%;
+  margin: 8px 0 20px 10px;
+  text-align: right;
+  height: 45%;
+  line-height: 50px;
+  font-size: 35px;
+  padding-right: 10px;
+  overflow: hidden;
+/*   font-family: ; */
+  box-shadow: inset 0 0 10px black, inset 0px 2px 0 #D5E3E4;
+}
+ul{
+  padding: 0;
+  margin: 0;
+  
+}
+ul li{ /*Button*/
+  list-style: none;
+  background: #FD8A8A; /* button color*/
+  padding: 10px;
+  width: 15%;
+  float: left;
+  color: white;
+  margin: 5px;
+  cursor: pointer;
+  font-size:20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 0 white, inset 0 2px 0 grey;
+  font-family: "Share Tech", sans-serif;
+}
+ul li:active{
+  position: relative;
+  top: 5px;
+  box-shadow: inset 0 1px 2px black;
+}
+ul li:nth-child(16){
+ 
+  height:75px;
+  line-height: 75px;
+}
+ul li:last-child{
+/*   border: 2px solid red; */
+  margin-top: -45px;
+  width: 65%;
+}
+.signature{
+  color: grey;
+  font-family: "Share Tech", sans-serif;
+  font-size: 0.75rem;
+  text-align: right;
+  position: relative;
+  top: 4px;
+  right: 5px;
+  z-index: -1;
+  /* border: 1px solid red; */
+}
